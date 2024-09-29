@@ -1,0 +1,7 @@
+services:
+  application_doc_compose:
+    build: .
+    command: ["java", "-jar", "app.jar"]
+    ports:
+      - "8081:8080"
+
